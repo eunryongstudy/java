@@ -1,5 +1,8 @@
 class Print{
 	public String delimiter = "";
+	public Print(String delimiter) {
+		this.delimiter = delimiter;
+	}
 	public void A() {
 		System.out.println(delimiter);
 		System.out.println("A");
